@@ -1,0 +1,16 @@
+{
+  "name": "human-safe-list",
+  "version": "1.0.0",
+  "description": "A project to maintain a human safe list",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "client": "npm start --prefix client",
+    "server": "node server/index.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^6.0.0"
+  }
+}
